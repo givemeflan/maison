@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MaisonSiteApplication<maison_site>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.tts.maison_site.MaisonSiteApplication",
+            "projectName": "maison_site",
+            "args": ""
+        }
+    ]
+}

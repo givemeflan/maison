@@ -1,15 +1,103 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-<title>Subscriber Sign-Up</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-	<h3>Subscriber Sign-up Form</h3>
-	<p>Thank you for signing up!</p>
-	<h4>Subscriber:</h4>
-	<p th:text="${firstName}" />
-	<p th:text="${lastName}" />
-	<p th:text="${userName}" />
-</body>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Maison Contact Email Confirmation</title>
+      <!-- Normalize.css -->
+      <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+      <!-- Boostrap CDN -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- Google Fonts & Font Awesome -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/d5a23941ce.js" crossorigin="anonymous"></script> 
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <div class="email-conf">
+         <div class="row">
+            <div class="col-md-12">
+               <h1 class="email-headline"> MAISON</h1>
+            </div>
+         </div>
+      </div>
+      <div class="email-chunk">
+         <div class="conf-square">
+            <h2 id="email-title">Thank You For Submitting Your Message <span th:text="${fullName}" /> We Will Contact You Within 24 Hours. </h2>
+            <div class="confirm-sec">
+               <h3 id="message-title"> A COPY OF YOUR MESSAGE</h3>
+               <div class="subject-clump">
+                  <h4> First and Last Name: <span th:text="${fullName}" /></h4>
+                  <h4> Email Address: <span th:text="${emailAddress}" /></h4>
+                  <h4> Subject Matter: <span th:text="${subjectMatter}" /></h4>
+                  <h4> Client Message: <span th:text="${clientMessage}" /></h4>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Company Banner Section -->
+      <section class="company-banner">
+         <div class="container">
+         <div class="row">
+            <div class="col-sm-3" >
+               <h6 class="visiting-font"> Customer Service 
+               </h6>
+               <ul class="links-sec">
+                  <li>Guest Order Lookup</li>
+                  <li>Return/Exhcange Policy</li>
+                  <li>International Orders</li>
+               </ul>
+            </div>
+            <div class="col-sm-3" >
+               <h6 class="visiting-font"> Quick Links
+               </h6>
+               <ul class="links-sec">
+                  <li>Contact Us</li>
+                  <li>Track Your Order</li>
+                  <li>Initiate a Return</li>
+               </ul>
+            </div>
+            <div class="col-sm-3" >
+               <h6 class= "visiting-font"> About Maison
+               </h6>
+               <ul class="links-sec">
+                  <li> Internships & Careers</li>
+                  <li>Press & Media</li>
+                  <li>Events</li>
+               </ul>
+            </div>
+            <div class="col-sm-3" id="follow-us" >
+               <div class="social-media-sec">
+                  <div class="row ">
+                     <ul id="social-links">
+                        <li><i class="fab fa-pinterest fa-lg"></i></li>
+                        <li><i class="fab fa-twitter fa-lg"></i></li>
+                        <li><i class="fab fa-instagram fa-lg"></i></li>
+                        <li><i class="fab fa-youtube fa-lg"></i></li>
+                        <li><i class="fab fa-snapchat-ghost fa-lg"></i>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer Section -->
+      <footer class="page-footer font-small blue">
+         <!-- Copyright -->
+         <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            Give Me Flan
+         </div>
+         <!-- Copyright -->
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
 </html>

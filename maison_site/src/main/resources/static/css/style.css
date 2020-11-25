@@ -284,3 +284,60 @@ h6{
     color:#F5F5F5;
     
 }
+
+/* CSS for Maison Email Confirmation Page */
+.email-conf{
+    background-color:#343537;
+}
+
+.email-headline{
+    color:#C19A5B; 
+    font-size:80px;
+    font-family: 'Cormorant Garamond', serif;
+     text-align: center;
+
+}
+
+.email-chunk{
+    background-color: #BDB5A8;
+}
+
+.conf-square{
+    
+    width:900px;
+    margin:0 auto;
+    padding-top: 60px;
+    outline-offset: -50px;
+    outline: 1px solid #fff;
+    padding-bottom: 50px;
+    
+}
+
+#email-title{
+        font-family: 'Cinzel', serif;
+        font-size: 35px;
+        color: #fff; 
+        text-align: center;
+        padding: 20px;
+        width: 750px;
+        margin: 0 auto;
+        padding-top:20px;
+}
+
+.confirm-sec{
+    width: 750px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+#message-title{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size:30px;
+}
+
+.subject-clump{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}

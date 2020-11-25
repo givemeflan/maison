@@ -28,11 +28,12 @@ public class MaisonController {
 
     @PostMapping(value = "/")
     public String addNewMaison(Maison maison, Model model) {
-        maisonRepository.save(
-                new Maison(maison.getFirstName(), maison.getLastName(), maison.getUserName(), maison.getSignedup()));
-        model.addAttribute("firstName", maison.getFirstName());
-        model.addAttribute("lastName", maison.getLastName());
-        model.addAttribute("userName", maison.getUserName());
+        maisonRepository.save(new Maison(maison.getFullName(), maison.getEmailAddress(), maison.getSubjectMatter(),
+                maison.getClientMessage(), maison.getSignedup()));
+        model.addAttribute("fullName", maison.getFullName());
+        model.addAttribute("emailAddress", maison.getEmailAddress());
+        model.addAttribute("subjectMatter", maison.getSubjectMatter());
+        model.addAttribute("clientMessage", maison.getClientMessage());
         return "maison/result";
 
     }

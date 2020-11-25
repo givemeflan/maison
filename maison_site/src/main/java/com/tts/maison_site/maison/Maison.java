@@ -16,9 +16,10 @@ public class Maison {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String firstName;
-    private String lastName;
-    private String userName;
+    private String fullName;
+    private String emailAddress;
+    private String subjectMatter;
+    private String clientMessage;
 
     @Column
     @CreationTimestamp
@@ -27,35 +28,44 @@ public class Maison {
     public Maison() {
     }
 
-    public Maison(String firstName, String lastName, String userName, Date signedup) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.userName = userName;
+    public Maison(String fullName, String emailAddress, String subjectMatter, String clientMessage, Date signedup) {
+        this.fullName = fullName;
+        this.emailAddress = emailAddress;
+        this.subjectMatter = subjectMatter;
+        this.clientMessage = clientMessage;
         this.signedup = signedup;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getEmailAddress() {
+        return emailAddress;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getSubjectMatter() {
+        return subjectMatter;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setSubjectMatter(String subjectMatter) {
+        this.subjectMatter = subjectMatter;
+    }
+
+    public String getClientMessage() {
+        return clientMessage;
+    }
+
+    public void setClientMessage(String clientMessage) {
+        this.clientMessage = clientMessage;
     }
 
     public Date getSignedup() {
@@ -68,8 +78,8 @@ public class Maison {
 
     @Override
     public String toString() {
-        return "Maison [firstName=" + firstName + ", id=" + id + ", lastName=" + lastName + ", signedup=" + signedup
-                + ", userName=" + userName + "]";
+        return "Maison [clientMessage=" + clientMessage + ", emailAddress=" + emailAddress + ", fullName=" + fullName
+                + ", id=" + id + ", signedup=" + signedup + ", subjectMatter=" + subjectMatter + "]";
     }
 
 }
