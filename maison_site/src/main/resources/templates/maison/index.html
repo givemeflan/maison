@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Maison</title>
+    <!-- Normalize.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google Fonts & Font Awesome -->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d5a23941ce.js" crossorigin="anonymous"></script> 
+
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+
+ <body>
+    <div class="container-home">
+       <ul class="nav justify-content-center">
+          <li class="nav-item">
+             <a class="nav-link active" th:href="@{/}">HOME</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" th:href="@{/about}">ABOUT</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#activities-row">PRODUITS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">BLOG</a>
+         </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#contact-area">CONTACT</a>
+          </li>
+       </ul>
+       <div class="container-headline">
+          <div class="row" id="maison-container">
+             <div class="col-md-12">
+                 <div id="maison-titles">
+                 <h1 id = "maison-headline"> MAISON</h1>
+                <h1 id="main-headline"> Art & Interior Design</h1>
+                 </div>
+                 </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- About Section  -->
+    <section class="section-about">
+       <div class="container about-container" id="about-area">
+          <div class="row">
+             <div class="col-sm-12">
+                <h2> At MAISON, Home Is Where The Heart Is</h2>
+                <p class="content-filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit </p>
+             </div>
+          </div>
+       </div>
+    </section>
+    
+    <!-- Row 1 for "Products, calling it activities section in case I want to change it to something else"" -->
+    <section class="activities-container">
+       <div class="row" id="activities-row">
+          <div class="col-sm-6" id="vase-one" style="background-image:url('../images/vase-1.jpg');background-size:cover;height:550px;" >
+          </div>
+          <div class="col-sm-6" id="activity-box1" >
+             <div class="activity1">
+                <h2 class="activities-style">Curated Pieces For All Of Your Design Needs</h2>
+                </h2>
+                <p class="content-filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit </p>
+             </div>
+          </div>
+       </div>
+    </section>
+    <!-- Row 2 for "Products, calling it activities section in case I want to change it to something else" -->
+    <section class="activities-container">
+       <div class="row">
+          <div class="col-sm-6" id="activity-box2" >
+             <div class="activity2">
+                <h2 class="activities-style"> Crafted From Regional And Global Artisans </h2>
+                </h2>
+                <p class="content-filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+             </div>
+          </div>
+          <div class="col-sm-6" id="vase-three" style="background-image:url('../images/vase-3.jpg'); height:550px;" >
+          </div>
+       </div>
+       </div>
+    </section>
+    <!-- Section About Services for Businesses -->
+    <section class="section-about">
+        <div class="container contact-banner">
+           <div class="row">
+              <div class="col-sm-12" >
+                 <h2>Maison Also Provides Interior Design Services For Businesses Too</h2>
+                 <p id="contact-p"> Whether It's A Restaurant, Nail Bar, or Book Shop, Maison Is Here to Make Your Business A Second Hhome For Your Customers. <p>
+              </div>
+           </div>
+        </div>
+     </section>
+     <div class="business-sec">
+        <div class="row" id="maison-container">
+           </div>
+        </div>
+    <!-- Contact Us Banner -->
+    <section class="section-about">
+       <div class="container contact-banner">
+          <div class="row">
+             <div class="col-sm-12" >
+                <h2>Questions About Our Products Or Services?</h2>
+                <p id="contact-p"> Fill Out The Form Below, We Will Try to Repond Back To You Within 24 Hours. Online Orders Will Have A 3-5 Day Processing Time due to COVID-19.<p>
+             </div>
+          </div>
+       </div>
+    </section>
+    <!-- Contact Form Section -->
+    <section class="section-contactform">
+       <div class="container contactform-container">
+          <div class="row" id="contact-area">
+             <div class="col-sm-12" >
+                <div id="contact-container">
+                   <section id="contact-section">
+                      <h1 id="contact-title">EMAIL US HERE</h1>
+                      <form id="form-mod">
+                        <div class="form-group">
+                           <label for="exampleFormControlInput1">First and Last Name</label>
+                           <input type="email" class="form-control" id="exampleFormControlInput1" >
+                        </div>
+                        <div class="form-group">
+                           <label for="exampleFormControlSelect1">Email Address</label>
+                           <input type="email" class="form-control" id="exampleFormControlInput2">
+                        </div>
+                        <div class="form-group">
+                           <label for="exampleFormControlSelect2">Subject Matter</label>
+                           <input type="email" class="form-control" id="exampleFormControlInput3">
+                        </div>
+                        <div class="form-group">
+                           <label for="exampleFormControlTextarea1">Message</label>
+                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-buttom text-center">
+                                <button type="submit"   id="button-contact" >SUBMIT</button>
+                             </div>
+                     </form>
+                   </section>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+    <!-- Company Banner Section -->
+    <section class="company-banner">
+       <div class="container">
+          <div class="row">
+             <div class="col-sm-3" >
+                <h6 class="visiting-font"> Customer Service 
+                </h6>
+               <ul class="links-sec">
+                   <li>Guest Order Lookup</li>
+                   <li>Return/Exhcange Policy</li>
+                   <li>International Orders</li>
+               </ul>
+             </div>
+             <div class="col-sm-3" >
+                <h6 class="visiting-font"> Quick Links
+                </h6>
+                <ul class="links-sec">
+                    <li>Contact Us</li>
+                    <li>Track Your Order</li>
+                    <li>Initiate a Return</li>
+                </ul>
+             </div>
+             <div class="col-sm-3" >
+                <h6 class= "visiting-font"> About Maison
+                </h6>
+                <ul class="links-sec">
+                    <li> Internships & Careers</li>
+                    <li>Press & Media</li>
+                    <li>Events</li>
+                </ul>
+             </div>
+             <div class="col-sm-3" id="follow-us" >
+                <div class="social-media-sec">
+                    <div class="row ">
+                    <ul id="social-links">
+                       <li><i class="fab fa-pinterest fa-lg"></i></li>
+                       <li><i class="fab fa-twitter fa-lg"></i></li>
+                       <li><i class="fab fa-instagram fa-lg"></i></li>
+                       <li><i class="fab fa-youtube fa-lg"></i></li>
+                       <li><i class="fab fa-snapchat-ghost fa-lg"></i>
+                       </li>
+                    </ul>
+                    </div>
+                 </div>
+          </div>
+       </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="page-footer font-small blue">
+       <!-- Copyright -->
+       <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          Give Me Flan
+       </div>
+       <!-- Copyright -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+ </body>
+</html>

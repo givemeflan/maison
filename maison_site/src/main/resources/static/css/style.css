@@ -1,0 +1,286 @@
+/* CSS Styling for travel.html */
+
+.container-home {
+	background-image: url('../images/empty-room.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+    height: 770px;
+
+}
+
+#homepage-sec{
+    background-image: url('../images/branch.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+    height: 560px;
+
+}
+
+.nav-item {
+    padding-top: 15px;
+   
+}
+
+.nav-item a {
+	color: white;
+	font-size: 18.5px;
+    padding-left: 50px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-link:hover {
+	color: #C19A5B;
+}
+
+.container-headline {
+    margin-top: 192px;
+    text-align: center;
+
+}
+
+#maison-titles {
+    width:1000px;
+    margin: 0 auto;
+}
+
+#maison-headline{
+    color:#343537; 
+    font-size: 210px;
+    font-family: 'Cormorant Garamond', serif;
+     text-align: center;
+}
+
+#main-headline {
+	width: 1000px;
+    margin: 0 auto;
+    text-align:center;
+	font-size: 100px;
+	color:#C19A5B;
+    font-family: 'Mrs Saint Delafield', cursive;
+}
+
+
+#link-color:hover {
+	cursor: pointer;
+	background-color: #8aa4ab;
+	color: white;
+}
+
+
+/* CSS FOR ABOUT SECTION, Maison About */
+
+.section-about {
+    background-color: #F5F5F5;
+}
+
+.about-container {
+	text-align: center;
+	padding-top:100px;
+	padding-bottom: 80px;
+    width: 800px;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+	font-size: 40px;
+    color: #C19A5B; 
+}
+
+#contact-p{
+    color: #343537;
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top:10px;
+}
+
+.activities-style {
+	color: white;
+}
+
+.content-filler {
+	text-align: justify;
+	font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #343537;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* CSS FOR Products Section, named it Activities in Code in case I want to change this section */
+
+#activity-box1,
+#activity-box2 {
+    background-color: #BDB5A8;
+    outline: 1px solid #fff;
+    outline-offset: -60px;
+}
+
+.activity1,
+.activity2 {
+	text-align: center;
+	position: relative;
+	top: 20%;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#vase-one{
+    background-position: center bottom;
+}
+
+#vase-three{
+    background-repeat: no-repeat;background-size: cover;
+    background-position: center left;
+}
+
+
+/* Section For Maison Business Services */
+
+.business-sec {
+	background-image: url('../images/cafe.jpg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
+    height: 700px;
+}
+
+/* CSS FOR CONTACT US BANNER  */
+
+.contact-banner {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	width: 800px;
+}
+
+
+/* CSS FOR CONTACT FORM SECTION */
+
+.section-contactform {
+    background-color:#BDB5A8;
+    padding: 25px 0 25px 0;
+}
+
+.contactform-container {
+	text-align: center;
+	padding-top: 50px;
+    padding-bottom: 50px;
+    width: 650px;
+    outline: 1px solid #fff;
+    outline-offset: -30px;
+}
+
+#contact-title {
+	font-family: 'Cinzel', serif;
+	color: white;
+	font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#form-mod {
+	margin-top: -10px;
+    margin-bottom: 35px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#contact-box {
+	padding: 10px;
+    width: 450px;
+}
+
+#message-box {
+	padding: 10px;
+	width: 450px;
+	height: 150px;
+}
+
+label {
+	display: block;
+	padding: 7px;
+	font-size: 18px;
+	font-family: 'Merriweather', serif;
+	color: #343537; 
+}
+
+#button-contact {
+	margin: 0 auto;
+	width: 118px;
+	padding: 10px;
+	border-color: #F5F5F5;
+    border-style: solid;
+    border-radius: 7.75px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:#BDB5A8 ;
+    margin-top: 20px;
+}
+
+
+#button-contact:hover {
+    cursor: pointer;
+    background-color:#343537;
+    border-color:#343537;
+    color: #F5F5F5;
+    transform: translateY(3px);
+}
+
+
+
+/* CSS for Company Banner */
+
+.company-banner{
+    background-color:white;
+    padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+#visiting-font {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px;
+	color: #343537;
+}
+
+h6{
+    font-size: 18px;
+}
+
+.links-sec{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+
+/* Company Section, Col 4 w/Social Media Links */
+
+#social-links {
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    padding:0;
+}
+
+#social-links >li{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    padding: 3px;
+    color: #343537;
+}
+
+
+
+/* CSS FOR FOOTER */
+
+.page-footer {
+	background-color: #343537;
+    color:#F5F5F5;
+    
+}
