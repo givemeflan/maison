@@ -18,3 +18,22 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 ![email1](https://user-images.githubusercontent.com/66345751/100783632-07b42400-33dc-11eb-8d65-3696d3303a5f.JPG)
 ![email2](https://user-images.githubusercontent.com/66345751/100783639-097de780-33dc-11eb-95d9-0b0153c94112.JPG)
 ![footer2](https://user-images.githubusercontent.com/66345751/100784001-8610c600-33dc-11eb-8d40-cbbc048ee3b6.JPG)
+
+## Resources: 
+
+-Boostrap CDN: 
+1. https://getbootstrap.com/docs/4.3/getting-started/introduction/
+
+- Google Font Links: 
+1. https://fonts.google.com/specimen/Cormorant+Garamond?sidebar.open=true&selection.family=Cormorant+Garamond:wght@300 
+2. https://fonts.google.com/specimen/Mrs+Saint+Delafield 
+3. https://fonts.google.com/specimen/Merriweather?sidebar.open=true&selection.family=Merriweather:wght@300 
+4. https://fonts.google.com/specimen/Cinzel 
+
+- Images
+1. https://unsplash.com/photos/5i0GnoTTjSE 
+2. https://www.pexels.com/photo/brown-plant-on-white-ceramic-vase-4207892/ 
+3. https://www.pexels.com/photo/stylish-minimalistic-composition-of-cosmetics-vase-and-wall-frame-4207891/ 
+4. https://www.pexels.com/photo/white-and-brown-vases-2789545/ 
+5. https://www.pexels.com/photo/coffee-shop-2449457/ 
+6. https://www.pexels.com/photo/vase-with-pampas-grass-placed-on-desk-5797998/ 
