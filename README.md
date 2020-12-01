@@ -17,3 +17,4 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 ## Screenshots of the result.html After Submitting Info in Contact Form
 ![email1](https://user-images.githubusercontent.com/66345751/100783632-07b42400-33dc-11eb-8d65-3696d3303a5f.JPG)
 ![email2](https://user-images.githubusercontent.com/66345751/100783639-097de780-33dc-11eb-95d9-0b0153c94112.JPG)
+![footer2](https://user-images.githubusercontent.com/66345751/100784001-8610c600-33dc-11eb-8d40-cbbc048ee3b6.JPG)
