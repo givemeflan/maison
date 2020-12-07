@@ -18,6 +18,8 @@
 
 }
 
+/* Nav Area */
+
 .nav-item {
     padding-top: 15px;
    
@@ -31,8 +33,10 @@
 }
 
 .nav-link:hover {
-	color: #C19A5B;
+    color: #C19A5B;
+    font-weight:600;
 }
+
 
 .container-headline {
     margin-top: 192px;

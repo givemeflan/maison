@@ -1,4 +1,4 @@
-package com.tts.maison_site.blogpost;
+package com.tts.maison_site.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.tts.maison_site.maison;
+package com.tts.maison_site.model;
 
 import java.util.Date;
 

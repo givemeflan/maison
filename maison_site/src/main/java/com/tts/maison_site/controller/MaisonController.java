@@ -1,5 +1,8 @@
-package com.tts.maison_site.maison;
+package com.tts.maison_site.controller;
 
+import com.tts.maison_site.repository.MaisonRepository;
+
+import com.tts.maison_site.model.Maison;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -28,8 +31,7 @@ public class MaisonController {
 
     @PostMapping(value = "/")
     public String addNewMaison(Maison maison, Model model) {
-        maisonRepository.save(new Maison(maison.getFullName(), maison.getEmailAddress(), maison.getSubjectMatter(),
-                maison.getClientMessage(), maison.getSignedup()));
+        maisonRepository.save(maison);
         model.addAttribute("fullName", maison.getFullName());
         model.addAttribute("emailAddress", maison.getEmailAddress());
         model.addAttribute("subjectMatter", maison.getSubjectMatter());
