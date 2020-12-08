@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+  <title> Products Page</title>
+  <div th:replace="/fragments/productstyle :: product-style"></div>
+</head>
+
+<body>
+  <!-- Nav Bar Area -->
+  <div id="productpage-sec">
+    <div th:replace="fragments/navbar :: navlinks"></div>
+  </div>
+
+  <!-- Products section Section  -->
+  <section class="product-about">
+    <div class="container product-container" id="product-area">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2> Produits</h2>
+          <h3> We Carefully Curate These Seasonal Pieces.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div th:replace="/fragments/footer :: footer-area"></div>
+</body>
+
+</html>

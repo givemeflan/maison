@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-  <head>
-    <title>Blog Site</title>
-    <div th:replace="/fragments/headlinks :: head-styles"></div>
-  </head>
-  <body>
-    <h1>Welcome to Our Blog Post Site!</h1>
-    <h3>Check out our blogs!</h3>
-      <p>Please use the form below to submit a Blog Post:</p>
-      <form action="#" th:action="@{/}" th:object="${blogPost}" method="post">
+
+<head>
+
+  <title> Le Blog Page</title>
+  <div th:replace="/fragments/blogstyle :: blog-style"></div>
+</head>
+
+<body>
+  <!-- Nav Bar Area -->
+  <div id="blogpage-sec">
+    <div th:replace="fragments/navbar :: navlinks"></div>
+  </div>
+
+  <!-- Blog Section  -->
+  <section class="blog-about">
+    <div class="container blog-container" id="blog-area">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2> Le Blog</h2>
+          <h3> Read Our Thoughts On Sustainable Art & Design</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row" id="bloggy-area">
+      <div class="col-sm-12">
+        <h3 id="checkblog-title">Penny For Your Thoughts?</h3>
+        <p>Please use the form below if you would like to submit some comments about our blog posts!</p>
+        <form action="#" th:action="@{/}" th:object="${blogPost}" method="post">
           <table>
-        <tr>
-                  <td>Title</td>
-            <td><input type="text" th:field="*{title}" /></td>
-        </tr>
-        <tr>
-            <td>Author:</td>
-            <td><input type="text" th:field="*{author}" /></td>
-        </tr>
-        <tr>
-                <td>Blog Entry:</td>
-            <td><input type="text" th:field="*{blogEntry}" /></td>
-        </tr>
-        <tr>
-            <td><button type="submit">Submit Your Post</button></td>
-        </tr>
+            <tr>
+              <td>Title</td>
+              <td><input type="text" th:field="*{title}" /></td>
+            </tr>
+            <tr>
+              <td>Author:</td>
+              <td><input type="text" th:field="*{author}" /></td>
+            </tr>
+            <tr>
+              <td>Blog Entry:</td>
+              <td><input type="text" th:field="*{blogEntry}" /></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td ><button type="submit">Submit Your Post</button></td>
+            </tr>
           </table>
-      </form>
-      
-      <div th:replace="/fragments/footer :: footer-area"></div>
-  </body>
+        </form>
+      </div>
+  </section>
+
+
+
+  <div th:replace="/fragments/footer :: footer-area"></div>
+</body>
+
 </html>

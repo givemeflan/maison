@@ -1,0 +1,164 @@
+#blogpage-sec{
+    height: 200px;
+    background-color: #D9D9D7;
+}
+
+
+#maison-titles {
+    width:1000px;
+    margin: 0 auto;
+}
+
+#maison-headline{
+    color:#343537; 
+    font-size: 80px;
+    font-family: 'Cormorant Garamond', serif;
+     text-align: center;
+}
+
+
+/* Nav Area */
+
+.nav-item {
+    padding-top: 17px;
+    padding-bottom: 15px;
+   
+}
+.nav-item a {
+	color: white;
+	font-size: 18.5px;
+    padding-left: 50px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-link:hover {
+    color: #C19A5B;
+    font-weight:600;
+}
+
+/* Blog Title Area  */
+
+.blog-about {
+    background-color: #F5F5F5;
+}
+
+.blog-container {
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 20px;
+    width: 800px;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+	font-size: 75px;
+    /* color: #C19A5B;  */
+    color: #343537;
+}
+
+h3{
+    color:#C19A5B;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 50px;
+}
+
+
+/* Bloggy Area */
+#bloggy-area{
+    background-color:#BDB5A8;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#checkblog-title{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    color: #343537;
+    
+}
+
+form{
+    width: fit-content;
+    margin: auto;   
+}
+
+button{
+   margin-top: 10px;
+}
+
+
+
+/* What is this area again? */
+
+#contact-p{
+    color: #343537;
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-top:10px;
+}
+
+.activities-style {
+	color: white;
+}
+
+.content-filler {
+	text-align: justify;
+	font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #343537;
+    font-family: 'Merriweather', serif;
+}
+
+/* CSS for Company Banner Area */
+
+.company-banner{
+    background-color:white;
+    padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+#visiting-font {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 30px;
+	color: #343537;
+}
+
+h6{
+    font-size: 18px;
+}
+
+.links-sec{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+
+/* Company Section, Col 4 w/Social Media Links */
+
+#social-links {
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    padding:0;
+}
+
+#social-links >li{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    padding: 3px;
+    color: #343537;
+}
+
+
+
+/* CSS FOR FOOTER */
+
+.page-footer {
+	background-color: #343537;
+    color:#F5F5F5;
+    
+}
