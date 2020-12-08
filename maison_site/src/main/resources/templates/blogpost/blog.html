@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
   <head>
     <title>Blog Site</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <div th:replace="/fragments/headlinks :: head-styles"></div>
   </head>
   <body>
     <h1>Welcome to Our Blog Post Site!</h1>
@@ -28,6 +28,6 @@
           </table>
       </form>
       
-      
+      <div th:replace="/fragments/footer :: footer-area"></div>
   </body>
 </html>

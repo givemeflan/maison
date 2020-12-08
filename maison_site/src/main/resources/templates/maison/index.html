@@ -1,62 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Maison</title>
-    <!-- Normalize.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-    <!-- Boostrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Google Fonts & Font Awesome -->
     
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/d5a23941ce.js" crossorigin="anonymous"></script> 
-
-    <link rel="stylesheet" href="css/style.css">
+    <title> Maison Art & Interior Design Home Page</title>
+    <div th:replace="/fragments/headlinks :: head-styles"></div>
+  
  </head>
 
  <body>
     <div class="container-home">
-       <ul class="nav justify-content-center">
-          <li class="nav-item">
-             <a class="nav-link active" th:href="@{/}">HOME</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" th:href="@{/about}">ABOUT</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" href="#activities-row">PRODUITS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" th:href="@{/blog}"> LE BLOG</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" th:href="@{/blog}">LA GALERIE</a>
-         </li>
-          <li class="nav-item">
-             <a class="nav-link" href="#contact-area">CONTACT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-area">LOGIN</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#contact-area">SIGN UP</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="contact-area"><i class="fas fa-shopping-cart"></i></a>
-         </li>
-       </ul>
+
+       <!-- Navbar/Nav Links -->
+      <div th:replace="fragments/navbar :: navlinks"></div>
+
        <div class="container-headline">
           <div class="row" id="maison-container">
              <div class="col-md-12">
@@ -171,61 +127,9 @@
           </div>
        </div>
     </section>
-    <!-- Company Banner Section -->
-    <section class="company-banner">
-       <div class="container">
-          <div class="row">
-             <div class="col-sm-3" >
-                <h6 class="visiting-font"> Customer Service 
-                </h6>
-               <ul class="links-sec">
-                   <li>Guest Order Lookup</li>
-                   <li>Return/Exhcange Policy</li>
-                   <li>International Orders</li>
-               </ul>
-             </div>
-             <div class="col-sm-3" >
-                <h6 class="visiting-font"> Quick Links
-                </h6>
-                <ul class="links-sec">
-                    <li>Contact Us</li>
-                    <li>Track Your Order</li>
-                    <li>Initiate a Return</li>
-                </ul>
-             </div>
-             <div class="col-sm-3" >
-                <h6 class= "visiting-font"> About Maison
-                </h6>
-                <ul class="links-sec">
-                    <li> Internships & Careers</li>
-                    <li>Press & Media</li>
-                    <li>Events</li>
-                </ul>
-             </div>
-             <div class="col-sm-3" id="follow-us" >
-                <div class="social-media-sec">
-                    <div class="row ">
-                    <ul id="social-links">
-                       <li><i class="fab fa-pinterest fa-lg"></i></li>
-                       <li><i class="fab fa-twitter fa-lg"></i></li>
-                       <li><i class="fab fa-instagram fa-lg"></i></li>
-                       <li><i class="fab fa-youtube fa-lg"></i></li>
-                       <li><i class="fab fa-snapchat-ghost fa-lg"></i>
-                       </li>
-                    </ul>
-                    </div>
-                 </div>
-          </div>
-       </div>
-    </section>
+
     <!-- Footer Section -->
-    <footer class="page-footer font-small blue">
-       <!-- Copyright -->
-       <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          Give Me Flan
-       </div>
-       <!-- Copyright -->
-    </footer>
+    <div th:replace="/fragments/footer :: footer-area"></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
