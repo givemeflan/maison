@@ -25,7 +25,7 @@
     </div>
   </section>
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="card mb-3 large-product-card" th:each="product:${}">
         <div class="row no-gutters">
             <div class="col-md-6">
@@ -39,17 +39,17 @@
                 </div>
                 <h5 class="card-text" th:text="${#numbers.formatCurrency(product.price)}"></h5>
                 <p class="card-text" th:text="${product.description}"></p>
-                <!-- <form th:action="@{/cart}" th:object="${product}" method="post">
+                <form th:action="@{/cart}" th:object="${product}" method="post">
                     <input type="hidden" th:field="*{id}" />
                     <button type="submit" class="btn btn-primary">Add to Cart</button>
-                </form> -->
+                </form>
             </div>
         </div>
     </div>
 </div>
-</div>
+</div> -->
 
-  <!-- <section id="product-row">
+  <section id="product-row">
     <div class="product-container">
        <div class="row">
           <div class="col-sm-6">
@@ -130,7 +130,7 @@
           </div>
        </div>
     </div>
- </section> -->
+ </section>
 
   <div th:replace="/fragments/footer :: footer-area"></div>
 </body>
