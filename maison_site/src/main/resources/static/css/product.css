@@ -133,4 +133,31 @@ h6{
 .page-footer {
 	background-color: #343537;
     color:#F5F5F5;
-    
+}
+
+
+
+/* Product Section */
+.product-container{
+    padding-top:30px;
+    padding-bottom:60px;
+}
+
+.vase-1{
+    text-align: right;
+}
+
+.vase-2{
+    text-align: left;
+}
+
+.vase-title{
+    padding-top:10px;
+    font-family: 'Antic Didone', serif;
+    font-size:25px;   
+}
+
+.vase-hover:hover{
+    opacity: 0.4;
+
+}
