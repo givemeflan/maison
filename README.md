@@ -34,11 +34,23 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 3. https://fonts.google.com/specimen/Merriweather?sidebar.open=true&selection.family=Merriweather:wght@300 
 4. https://fonts.google.com/specimen/Cinzel 
 
-- Images
+-Textured Background on Produits(productspage)
+https://www.transparenttextures.com/ 
+
+- Images on Home Page
 1. https://unsplash.com/photos/5i0GnoTTjSE 
 2. https://www.pexels.com/photo/brown-plant-on-white-ceramic-vase-4207892/ 
 3. https://www.pexels.com/photo/stylish-minimalistic-composition-of-cosmetics-vase-and-wall-frame-4207891/ 
 4. https://www.pexels.com/photo/white-and-brown-vases-2789545/ 
 5. https://www.pexels.com/photo/coffee-shop-2449457/ 
 6. https://www.pexels.com/photo/vase-with-pampas-grass-placed-on-desk-5797998/ 
-7. https://burst.shopify.com/photos/three-woman-stand-in-front-of-a-pink-backdrop?q=diverse+team (On About Us Page) 
+
+-Image on About Us Page
+1. https://burst.shopify.com/photos/three-woman-stand-in-front-of-a-pink-backdrop?q=diverse+team 
+
+-Images on Products Page (Vases) 
+1. https://www.pexels.com/photo/brown-plant-on-white-ceramic-vase-4207892/
+2. https://www.pexels.com/photo/purple-petaled-flowers-2746155/
+3. https://www.pexels.com/photo/pink-petaled-flowers-2831040/
+4. https://www.pexels.com/photo/african-american-female-ceramist-with-handmade-pottery-3817497/ 
+5. https://www.pexels.com/photo/white-daffodils-in-modern-vase-4466553/  
