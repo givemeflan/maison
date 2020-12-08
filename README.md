@@ -1,5 +1,5 @@
 # maison
-This project is for an assignment I'm doing with TTS (Tech Talent South) Full Immersion Foundational Java Course. With this assignment, I will be creating a mock website with Spring Boot. The Theme of my website is interior design. I also used the same layout from my mock travel website due to time constraints lol.... The website will have a contact form that is connected to a database. Any input from the user such as an email address, name, or subject matter will be shown in the database and displayed on an html page called result.html. In addition, there will be a blog page where users can submit a blog post if desired. 
+This project is for an assignment I'm doing with TTS (Tech Talent South) Full Immersion Foundational Java Course. With this assignment, I will be creating a mock website with Spring Boot. The Theme of my website is Art & Interior Design. I also used the same layout from my mock travel website due to time constraints lol.... The website will have a contact form that is connected to a database. Any input from the user such as an email address, name, or subject matter will be shown in the database and displayed on an html page called result.html. In addition, there will be a blog page where users can submit a blog post if desired. With the limited timeframe, instead of "selling" interior design services, the "shop" will promote vases. Also the picture of three women on the About Us Page is a stock image. It is not the actual creators of this project. Okay, enjoy! 
 
 ## Screenshots of Home Page 
 ![homepage](https://user-images.githubusercontent.com/66345751/101418023-dd220980-38ba-11eb-94af-b29c58ffc8e4.JPG)
@@ -40,3 +40,4 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 4. https://www.pexels.com/photo/white-and-brown-vases-2789545/ 
 5. https://www.pexels.com/photo/coffee-shop-2449457/ 
 6. https://www.pexels.com/photo/vase-with-pampas-grass-placed-on-desk-5797998/ 
+7. https://burst.shopify.com/photos/three-woman-stand-in-front-of-a-pink-backdrop?q=diverse+team (On About Us Page) 
