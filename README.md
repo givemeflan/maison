@@ -11,8 +11,9 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 ![footer](https://user-images.githubusercontent.com/66345751/100782576-9e7fe100-33da-11eb-8065-4568b6c821a3.JPG)
 
 ## Screenshots of About Page 
-![aboutus](https://user-images.githubusercontent.com/66345751/100783549-ece1af80-33db-11eb-8efa-f3dfab35bdc9.JPG)
-![aboutpara](https://user-images.githubusercontent.com/66345751/100783555-eeab7300-33db-11eb-8b9b-d2195b458689.JPG)
+![aboutus1](https://user-images.githubusercontent.com/66345751/101532452-912a9f80-3962-11eb-95d3-67d1a36c5c22.JPG)
+![aboutus2](https://user-images.githubusercontent.com/66345751/101532457-92f46300-3962-11eb-80ba-f57a75473c4c.JPG)
+![aboutus3](https://user-images.githubusercontent.com/66345751/101532461-94be2680-3962-11eb-9346-e337010e20b5.JPG)
 
 ## Screenshots of the result.html After Submitting Info in Contact Form
 ![email1](https://user-images.githubusercontent.com/66345751/100783632-07b42400-33dc-11eb-8d65-3696d3303a5f.JPG)
