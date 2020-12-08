@@ -53,4 +53,5 @@ https://www.transparenttextures.com/
 2. https://www.pexels.com/photo/purple-petaled-flowers-2746155/
 3. https://www.pexels.com/photo/pink-petaled-flowers-2831040/
 4. https://www.pexels.com/photo/african-american-female-ceramist-with-handmade-pottery-3817497/ 
-5. https://www.pexels.com/photo/white-daffodils-in-modern-vase-4466553/  
+5. https://www.pexels.com/photo/white-daffodils-in-modern-vase-4466553/ 
+6. https://www.pexels.com/photo/two-white-flower-vases-2146109/
