@@ -12,27 +12,15 @@
          <div th:replace="fragments/navbar :: navlinks"></div>
       </div>
 
-      <!-- Products Title Section  -->
-      <section class="product-about">
-         <div class="container product-container" id="product-area">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h2> Produits</h2>
-                  <h3> We Carefully Curate These Seasonal Pieces.</h3>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <!-- Bootstrap Card Deck -->
+      <!-- Products Section -->
       <div class="product-sec">
          <div class="row">
             <div class="card-deck">
                <div class="card">
-                  <img class="card-img-top" src="images/round-vase.jpg" alt="woman holding round vase">
+                  <img th:src="@{${product.image}}" class="card-img-top" alt="woman holding round vase">
                   <div class="card-body">
-                     <h5 class="card-title"> The Ellie Vase</h5>
-                     <p class="card-text"> Created by Ellie West.</p>
+                     <h5 th:text="${product.name}" class="card-title" ></h5>
+                     <p th:text="${product.description}" class="card-text" ></p>
                      <div class="star-rating">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -41,15 +29,15 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p id="price-tag">$28.00</p>
+                        <p th:text="${product.price}" id="price-tag" ></p>
                      </div>
                   </div>
                </div>
                <div class="card">
-                  <img class="card-img-top" src="images/donut-vase.jpg" alt="vase with a hole in the middle">
+                  <img th:src="@{${product.image}}" class="card-img-top" alt="vase with a hole in the middle">
                   <div class="card-body">
-                     <h5 class="card-title">The Vivienne Vase</h5>
-                     <p class="card-text">Created by Vivienne Tran.</p>
+                     <h5 th:text="${product.name}" class="card-title"></h5>
+                     <p th:text="${product.description}" class="card-text"></p>
                      <div class="star-rating">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -58,15 +46,15 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p class="price-tag">$25.00</p>
+                        <p th:text="${product.price}" class="price-tag"></p>
                      </div>
                   </div>
                </div>
                <div class="card">
-                  <img class="card-img-top" src="images/lavender-vase.jpg" alt="a white pot with lavender inside">
+                  <img th:src="@{${product.image}}" class="card-img-top" alt="a white pot with lavender inside">
                   <div class="card-body">
-                     <h5 class="card-title">The Sophia Pot</h5>
-                     <p class="card-text">Created by Sophia Murrieta.</p>
+                     <h5 th:text="${product.name}" class="card-title"></h5>
+                     <p th:text="${product.description}" class="card-text"></p>
                      <div class="star-rating">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -75,17 +63,18 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p class="price-tag">$20.00</p>
+                        <p th:text="${product.price}" class="price-tag"></p>
                      </div>
                   </div>
                </div>
             </div>
+
             <div class="card-deck">
                <div class="card">
-                  <img class="card-img-top" src="images/pink-vase.jpg" alt="image of vase with pink flowers">
+                  <img th:src="@{${product.image}}" class="card-img-top" alt="woman holding round vase">
                   <div class="card-body">
-                     <h5 class="card-title"> The Rebecca Pot</h5>
-                     <p class="card-text"> Created by Rebecca Park.</p>
+                     <h5 th:text="${product.name}" class="card-title" ></h5>
+                     <p th:text="${product.description}" class="card-text" ></p>
                      <div class="star-rating">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -94,15 +83,15 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p id="price-tag">$30.00</p>
+                        <p th:text="${product.price}" id="price-tag" ></p>
                      </div>
                   </div>
                </div>
                <div class="card">
-                  <img class="card-img-top" src="images/ribbed-vase.jpg"alt="vase with ribbed texture">
+                  <img th:src="@{${product.image}}" class="card-img-top" alt="vase with a hole in the middle">
                   <div class="card-body">
-                     <h5 class="card-title">The Laura Vase</h5>
-                     <p class="card-text">Created by Laura Davis.</p>
+                     <h5 th:text="${product.name}" class="card-title"></h5>
+                     <p th:text="${product.description}" class="card-text"></p>
                      <div class="star-rating">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -111,15 +100,15 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p class="price-tag">$28.00</p>
+                        <p th:text="${product.price}" class="price-tag"></p>
                      </div>
                   </div>
                </div>
                <div class="card">
-                  <img class="card-img-top" src="images/duo-vase.jpg" alt="a vase with a pot and lid">
+                  <img th:src="@{${product.image}}" class="card-img-top" alt="a white pot with lavender inside">
                   <div class="card-body">
-                     <h5 class="card-title">The Nina Set</h5>
-                     <p class="card-text">Created by Nina Okoro.</p>
+                     <h5 th:text="${product.name}" class="card-title"></h5>
+                     <p th:text="${product.description}" class="card-text"></p>
                      <div class="star-rating">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -128,13 +117,20 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p class="price-tag">$40.00</p>
+                        <p th:text="${product.price}" class="price-tag"></p>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
+
+      <div th:each="product:${productsList}">
       </div>
+      <span th:text="${product.price}">
+      </span>
+      
+         </div>
+         </div>
+
 
       <!-- Fragments Footer -->
       <div th:replace="/fragments/footer :: footer-area"></div>
