@@ -1,151 +1,142 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-
-<head>
-
-  <title> Products Page</title>
-  <div th:replace="/fragments/productstyle :: product-style"></div>
-</head>
-
-<body>
-  <!-- Nav Bar Area -->
-  <div id="productpage-sec">
-    <div th:replace="fragments/navbar :: navlinks"></div>
-  </div>
-
-  <!-- Products Title Section  -->
-  <section class="product-about">
-    <div class="container product-container" id="product-area">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2> Produits</h2>
-          <h3> We Carefully Curate These Seasonal Pieces.</h3>
-        </div>
+   <head>
+      <title> Products Page</title>
+      <div th:replace="/fragments/productstyle :: product-style"></div>
+   </head>
+   <body>
+      <!-- Nav Bar Area -->
+      <div id="productpage-sec">
+         <div th:replace="fragments/navbar :: navlinks"></div>
       </div>
-    </div>
-  </section>
-
- <div class="product-sec">
-  <div class="row">
- <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/round-vase.jpg" alt="woman holding round vase">
-    <div class="card-body">
-      <h5 class="card-title"> The Ellie Vase</h5>
-      <p class="card-text"> Created by Ellie West.</p>
-      <div class="star-rating">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
+      <!-- Products Title Section  -->
+      <section class="product-about">
+         <div class="container product-container" id="product-area">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2> Produits</h2>
+                  <h3> We Carefully Curate These Seasonal Pieces.</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="product-sec">
+         <div class="row">
+            <div class="card-deck">
+               <div class="card">
+                  <img class="card-img-top" src="images/round-vase.jpg" alt="woman holding round vase">
+                  <div class="card-body">
+                     <h5 class="card-title"> The Ellie Vase</h5>
+                     <p class="card-text"> Created by Ellie West.</p>
+                     <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                     </div>
+                     <div>
+                        <p id="price-tag">$28.00</p>
+                        .
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <img class="card-img-top" src="images/donut-vase.jpg" alt="vase with a hole in the middle">
+                  <div class="card-body">
+                     <h5 class="card-title">The Donut Vase</h5>
+                     <p class="card-text">Created by Vivienne Tran.</p>
+                     <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                     </div>
+                     <div>
+                        <p class="price-tag">$25.00</p>
+                        .
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <img class="card-img-top" src="images/lavender-vase.jpg" alt="a white pot with lavender inside">
+                  <div class="card-body">
+                     <h5 class="card-title">The Lavender Pot</h5>
+                     <p class="card-text">Created by Sophia Murrieta.</p>
+                     <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                     </div>
+                     <div>
+                        <p class="price-tag">$20.00</p>
+                        .
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="card-deck">
+               <div class="card">
+                  <img class="card-img-top" src="images/pink-vase.jpg" alt="image of vase with pink flowers">
+                  <div class="card-body">
+                     <h5 class="card-title"> The Lush Pot</h5>
+                     <p class="card-text"> Created by Rebecca Park.</p>
+                     <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                     </div>
+                     <div>
+                        <p id="price-tag">$30.00</p>
+                        .
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <img class="card-img-top" src="images/ribbed-vase.jpg"alt="vase with ribbed texture">
+                  <div class="card-body">
+                     <h5 class="card-title">The Ribb Vase</h5>
+                     <p class="card-text">Created by Laura Davis.</p>
+                     <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                     </div>
+                     <div>
+                        <p class="price-tag">$28.00</p>
+                        .
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  <img class="card-img-top" src="images/duo-vase.jpg" alt="a vase with a pot and lid">
+                  <div class="card-body">
+                     <h5 class="card-title">The Marked Set</h5>
+                     <p class="card-text">Created by Nina Okoro.</p>
+                     <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                     </div>
+                     <div>
+                        <p class="price-tag">$40.00</p>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-        <div>
-          <p id="price-tag">$28.00</p>.
-        </div>
-        
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/donut-vase.jpg" alt="vase with a hole in the middle">
-    <div class="card-body">
-      <h5 class="card-title">The Donut Vase</h5>
-      <p class="card-text">Created by Vivienne Tran.</p>
-      <div class="star-rating">
-      <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </div>
-        <div>
-          <p class="price-tag">$25.00</p>.
-        </div>
-      
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/lavender-vase.jpg" alt="a white pot with lavender inside">
-    <div class="card-body">
-      <h5 class="card-title">The Lavender Pot</h5>
-      <p class="card-text">Created by Sophia Murrieta.</p>
-      <div class="star-rating">
-      <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </div>
-        <div>
-          <p class="price-tag">$20.00</p>.
-        </div>
-    </div>
-  </div>
-</div>
-
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/pink-vase.jpg" alt="image of vase with pink flowers">
-    <div class="card-body">
-      <h5 class="card-title"> The Lush Pot</h5>
-      <p class="card-text"> Created by Rebecca Park.</p>
-      <div class="star-rating">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </div>
-        <div>
-          <p id="price-tag">$30.00</p>.
-        </div>
-        
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/ribbed-vase.jpg"alt="vase with ribbed texture">
-    <div class="card-body">
-      <h5 class="card-title">The Ribb Vase</h5>
-      <p class="card-text">Created by Laura Davis.</p>
-      <div class="star-rating">
-      <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </div>
-        <div>
-          <p class="price-tag">$28.00</p>.
-        </div>
-      
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/duo-vase.jpg" alt="a vase with a pot and lid">
-    <div class="card-body">
-      <h5 class="card-title">The Marked Set</h5>
-      <p class="card-text">Created by Nina Okoro.</p>
-      <div class="star-rating">
-      <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </div>
-        <div>
-          <p class="price-tag">$40.00</p>.
-        </div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-</div>
-
- 
-<!-- Fragments Footer -->
-  <div th:replace="/fragments/footer :: footer-area"></div>
-</body>
-
+      <!-- Fragments Footer -->
+      <div th:replace="/fragments/footer :: footer-area"></div>
+   </body>
 </html>
