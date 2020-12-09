@@ -28,8 +28,11 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 - Font Awesome (Shopping Cart) 
 1. https://fontawesome.com/icons/shopping-cart?style=solid
 
-- Star Rating 
+- Star Rating on Products Page
 1. https://www.w3schools.com/howto/howto_css_star_rating.asp
+
+- Card Deck Bootstrap (Products Page
+1. https://getbootstrap.com/docs/4.0/components/card/
 
 - Google Font Links: 
 1. https://fonts.google.com/specimen/Cormorant+Garamond?sidebar.open=true&selection.family=Cormorant+Garamond:wght@300 
