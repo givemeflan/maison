@@ -20,23 +20,20 @@ public class ProductsService {
         return (List<Products>) pr.findAll();
     }
 
-    // Uncomment this later!!!
+    public Products findByImage(String image) {
+        return pr.findByImage(image);
+    }
 
-    // public Products findByImage(String image){
-    // return pr.findByImage(image);
-    // }
+    public Products findByName(String name) {
+        return pr.findByName(name);
+    }
 
-    // public Products findByName(String name);{
-    // return pr.findByName(name);
-    // }
+    public Products findByDescription(String description) {
+        return pr.findByDescription(description);
+    }
 
-    // public Products findByDescription(String description){
-    // return pr.findByDescription(description);
-    // }
-
-    // public Products findByPrice(String price){
-    // return pr.findByPrice(price);
-    // }
-
+    public Products findByPrice(Float price) {
+        return pr.findByPrice(price);
+    }
 
 }
