@@ -1,40 +1,60 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-
-<head>
-
-  <title> Sign-In Page</title>
-  <div th:replace="/fragments/productstyle :: product-style"></div>
-</head>
-
-<body>
-  <!-- Nav Bar Area -->
-  <div id="productpage-sec">
-    <div th:replace="fragments/navbar :: navlinks"></div>
-  </div>
-
-  <!--Sign Up Section -->
-  <section class="product-about">
-    <div class="container product-container" id="product-area">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2> Sign Up</h2>
-          <h3> Sign Up To Create Your Account</h3>
-        </div>
+DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+   <head>
+      <title> Sign-In Page</title>
+      <div th:replace="/fragments/productstyle :: product-style"></div>
+   </head>
+   <body>
+      <!-- Nav Bar Area -->
+      <div id="productpage-sec">
+         <div th:replace="fragments/navbar :: navlinks"></div>
       </div>
-    </div>
-  </section>
+      <!--Sign Up Title Section -->
+      <section class="product-about">
+         <div class="container product-container" id="product-area">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2> Sign Up</h2>
+                  <h3> Sign Up To Create Your Account</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <!-- Sign Up Form Here -->
+      <div class="product-sec">
+         <div class="row">
+            <div class="col-sm-12">
+               <!-- <form th:action="@{/signup}" th:object="${user}" method="post" autocomplete="off">
+                  <div class="form-group">
+                    <label th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}" class="validation-message"></label>
+                      <input type="text" th:field="*{firstName}" placeholder="First Name" class="form-control"/>
+                  </div>
+                  <div class="form-group">
+                      <label th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}" class="validation-message"></label>
+                      <input type="text" th:field="*{lastName}" placeholder="Last Name" class="form-control"/>
+                  </div>
+                  <div class="form-group">
+                      <label th:if="${#fields.hasErrors('username')}" th:errors="*{username}" class="validation-message"></label>
+                      <input type="text" th:field="*{username}" placeholder="Username" class="form-control"/>
+                  </div>
+                  <div class="form-group"> 
+                      <input type="text" th:field="*{email}" placeholder="Email" class="form-control"/> 
+                      <label th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="validation-message"></label>
+                  </div>
+                  <div class="form-group">
+                      <input type="password" th:field="*{password}" placeholder="Password" class="form-control"/> 
+                      <label th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="validation-message"></label>
+                  </div>
+                  <div class="form-group">
+                      <button class="btn btn-md btn-success btn-block" name="Submit" value="Submit" type="Submit" th:text="Submit"></button>
+                  </div>
+                  </form> -->
+            </div>
+         </div>
+      </div>
 
-  <!-- Insert Code In This Area if Working on Sign Up Page -->
-
-
-
-
-
-
-
-  
-  <div th:replace="/fragments/footer :: footer-area"></div>
-</body>
-
+      <!-- Fragments Footer -->
+      <div th:replace="/fragments/footer :: footer-area"></div>
+   </body>
 </html>

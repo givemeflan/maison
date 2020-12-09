@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-
-<head>
-
-  <title> Cart Page</title>
-  <div th:replace="/fragments/productstyle :: product-style"></div>
-</head>
-
-<body>
-  <!-- Nav Bar Area -->
-  <div id="productpage-sec">
-    <div th:replace="fragments/navbar :: navlinks"></div>
-  </div>
-
-  <!-- Cart Section  -->
-  <section class="product-about">
-    <div class="container product-container" id="product-area">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2> Your Cart</h2>
-          <h3> We Love Your Choices!</h3>
-        </div>
+   <head>
+      <title> Cart Page</title>
+      <div th:replace="/fragments/productstyle :: product-style"></div>
+   </head>
+   <body>
+      <!-- Nav Bar Area -->
+      <div id="productpage-sec">
+         <div th:replace="fragments/navbar :: navlinks"></div>
       </div>
-    </div>
-  </section>
+      <!-- Cart Title Section  -->
+      <section class="product-about">
+         <div class="container product-container" id="product-area">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2> Your Cart</h2>
+                  <h3> We Love Your Choices!</h3>
+               </div>
+            </div>
+         </div>
+      </section>
 
-  <div th:replace="/fragments/footer :: footer-area"></div>
-</body>
-
+      <!-- Cart With Goods In This Area Here  -->
+      <div class="product-sec">
+         <div class="row">
+            <div class="col-sm-12">
+            </div>
+         </div>
+      </div>
+      
+      <!-- Fragments Footer -->
+      <div th:replace="/fragments/footer :: footer-area"></div>
+   </body>
 </html>

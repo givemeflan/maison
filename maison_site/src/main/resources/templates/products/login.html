@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-
-<head>
-
-  <title> Login Page</title>
-  <div th:replace="/fragments/productstyle :: product-style"></div>
-</head>
-
-<body>
-  <!-- Nav Bar Area -->
-  <div id="productpage-sec">
-    <div th:replace="fragments/navbar :: navlinks"></div>
-  </div>
-
-  <!-- Login Section  -->
-  <section class="product-about">
-    <div class="container product-container" id="product-area">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2> Login</h2>
-          <h3> Login To Access Your Account</h3>
-        </div>
+   <head>
+      <title> Login Page</title>
+      <div th:replace="/fragments/productstyle :: product-style"></div>
+   </head>
+   <body>
+      <!-- Nav Bar Area -->
+      <div id="productpage-sec">
+         <div th:replace="fragments/navbar :: navlinks"></div>
       </div>
-    </div>
-  </section>
+      <!-- Login Title Section  -->
+      <section class="product-about">
+         <div class="container product-container" id="product-area">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2> Login</h2>
+                  <h3> Login To Access Your Account</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+      <!-- Login Form Here -->
+      <div class="product-sec">
+         <div class="row">
+            <div class="col-sm-12">
+               <form th:action="@{/login}" method="post" id="login-form">
+                  <br />
+                  <input type="text" id="username" name="username" th:placeholder="Username" class="form-control" /> <br />
+                  <input type="password" th:placeholder="Password" id="password" name="password" class="form-control" />
+                  <br />
+                  <div align="center" th:if="${param.error}">
+                     <h4 style="color: red">Login unsuccessful.</h4>
+                  </div>
+                  <button class="btn btn-md btn-secondary btn-block" name="Submit" value="Login" type="Submit">LOGIN</button>
+               </form>
+            </div>
+         </div>
+      </div>
 
-  <div th:replace="/fragments/footer :: footer-area"></div>
-</body>
-
+      <!-- Fragments Footer -->
+      <div th:replace="/fragments/footer :: footer-area"></div>
+   </body>
 </html>
