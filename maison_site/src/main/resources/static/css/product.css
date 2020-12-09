@@ -138,11 +138,6 @@ h6{
 
 
 /* Product Section */
-
-#product-row{ 
-
-}
-
 .product-sec{
     /* background-color:red; */
     padding-top:80px;
@@ -166,6 +161,25 @@ h6{
 .vase-hover:hover{
     opacity: 0.4;
 }
+
+
+
+/* Card Deck (PRODUCTS */
+.card-deck{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: orange; */
+    padding-bottom: 40px;
+}
+
+.checked{
+    color: yellow;
+}
+
+.price-tag{
+    padding-top:5px;
+}
+
 
 /* Login Page CSS */
 #login-form{
