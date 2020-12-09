@@ -28,6 +28,9 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 - Font Awesome (Shopping Cart) 
 1. https://fontawesome.com/icons/shopping-cart?style=solid
 
+- Star Rating 
+1. https://www.w3schools.com/howto/howto_css_star_rating.asp
+
 - Google Font Links: 
 1. https://fonts.google.com/specimen/Cormorant+Garamond?sidebar.open=true&selection.family=Cormorant+Garamond:wght@300 
 2. https://fonts.google.com/specimen/Mrs+Saint+Delafield 
