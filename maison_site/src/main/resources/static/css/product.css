@@ -137,7 +137,7 @@ h6{
 
 
 
-/* Product Section */
+/* Product Section On Product Page */
 .product-sec{
     /* background-color:red; */
     padding-top:80px;
@@ -146,7 +146,7 @@ h6{
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
-.vase-1{
+/* .vase-1{
     text-align: center;
 }
 
@@ -160,11 +160,11 @@ h6{
 
 .vase-hover:hover{
     opacity: 0.4;
-}
+} */
 
 
 
-/* Card Deck (PRODUCTS */
+/* Card Deck (On Products Page) */
 .card-deck{
     width: 1200px;
     margin: 0 auto;
@@ -185,8 +185,22 @@ h6{
 #login-form{
     width: 400px;
     margin: 0 auto;
-    margin-top: -50px;
-    padding-top: 30px;
     padding-bottom: 50px;
-    
+}
+
+
+/* Sign Up Page CSS */
+.form-signin{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* La Galerie Page CSS */
+.galerie-pic-title{
+    font-family: 'Cinzel', serif;
+}
+
+.galerie-pic-p{
+    font-family: 'Cinzel', serif;
 }
