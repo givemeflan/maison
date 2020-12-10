@@ -61,3 +61,7 @@ https://www.transparenttextures.com/
 4. https://www.pexels.com/photo/african-american-female-ceramist-with-handmade-pottery-3817497/ 
 5. https://www.pexels.com/photo/white-daffodils-in-modern-vase-4466553/ 
 6. https://www.pexels.com/photo/two-white-flower-vases-2146109/
+
+- Images on La Galerie Page 
+1. https://www.pexels.com/photo/abandoned-building-empty-indoors-20943/
+2. https://unsplash.com/photos/x3BCSWCAtrY
