@@ -1,3 +1,2 @@
-INSERT INTO products
-VALUES
-    (1, "image", "name", "description", 1);
+MERGE INTO  `PRODUCTS`
+VALUES (1,"Created by Ellie West","images/pink-vase.jpg","Ellie Vase", 20);
