@@ -5,8 +5,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+// import javax.persistence.Table;
 
 @Entity
+// @Table(name = "products")
 public class Products {
 
     @Id
@@ -20,9 +22,9 @@ public class Products {
 
     private String description;
 
-    private float price;
+    private Float price;
 
-    public Products(String image, String name, String description, float price) {
+    public Products(String image, String name, String description, Float price) {
         this.image = image;
         this.name = name;
         this.description = description;
@@ -64,7 +66,7 @@ public class Products {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(Float price) {
         this.price = price;
     }
 
