@@ -8,10 +8,12 @@ import javax.persistence.Id;
 // import javax.persistence.Table;
 
 @Entity
+// tells page it will be a table 
 // @Table(name = "products")
 public class Products {
 
     @Id
+    // Every table needs an Id 
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "product_id")
     private Long id;

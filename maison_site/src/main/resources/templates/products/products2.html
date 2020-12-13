@@ -16,7 +16,7 @@
       <div class="product-sec">
          <div class="row">
             <div class="card-deck">
-               <div class="card">
+               <div th:each="product:${products}" class="card">
                   <img th:src="@{${product.image}}" class="card-img-top" alt="woman holding round vase">
                   <div class="card-body">
                      <h5 th:text="${product.name}" class="card-title" ></h5>
@@ -33,101 +33,6 @@
                      </div>
                   </div>
                </div>
-               <div class="card">
-                  <img th:src="@{${product.image}}" class="card-img-top" alt="vase with a hole in the middle">
-                  <div class="card-body">
-                     <h5 th:text="${product.name}" class="card-title"></h5>
-                     <p th:text="${product.description}" class="card-text"></p>
-                     <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                     </div>
-                     <div>
-                        <p th:text="${product.price}" class="price-tag"></p>
-                     </div>
-                  </div>
-               </div>
-               <div class="card">
-                  <img th:src="@{${product.image}}" class="card-img-top" alt="a white pot with lavender inside">
-                  <div class="card-body">
-                     <h5 th:text="${product.name}" class="card-title"></h5>
-                     <p th:text="${product.description}" class="card-text"></p>
-                     <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                     </div>
-                     <div>
-                        <p th:text="${product.price}" class="price-tag"></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="card-deck">
-               <div class="card">
-                  <img th:src="@{${product.image}}" class="card-img-top" alt="woman holding round vase">
-                  <div class="card-body">
-                     <h5 th:text="${product.name}" class="card-title" ></h5>
-                     <p th:text="${product.description}" class="card-text" ></p>
-                     <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                     </div>
-                     <div>
-                        <p th:text="${product.price}" id="price-tag" ></p>
-                     </div>
-                  </div>
-               </div>
-               <div class="card">
-                  <img th:src="@{${product.image}}" class="card-img-top" alt="vase with a hole in the middle">
-                  <div class="card-body">
-                     <h5 th:text="${product.name}" class="card-title"></h5>
-                     <p th:text="${product.description}" class="card-text"></p>
-                     <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                     </div>
-                     <div>
-                        <p th:text="${product.price}" class="price-tag"></p>
-                     </div>
-                  </div>
-               </div>
-               <div class="card">
-                  <img th:src="@{${product.image}}" class="card-img-top" alt="a white pot with lavender inside">
-                  <div class="card-body">
-                     <h5 th:text="${product.name}" class="card-title"></h5>
-                     <p th:text="${product.description}" class="card-text"></p>
-                     <div class="star-rating">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                     </div>
-                     <div>
-                        <p th:text="${product.price}" class="price-tag"></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-      <div th:each="product:${productsList}">
-      </div>
-      <span th:text="${product.price}">
-      </span>
-      
          </div>
          </div>
 
