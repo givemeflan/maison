@@ -15,6 +15,9 @@ This project is for an assignment I'm doing with TTS (Tech Talent South) Full Im
 ![aboutus2](https://user-images.githubusercontent.com/66345751/101532457-92f46300-3962-11eb-80ba-f57a75473c4c.JPG)
 ![aboutus3](https://user-images.githubusercontent.com/66345751/101532461-94be2680-3962-11eb-9346-e337010e20b5.JPG)
 
+## Screenshots of Products Page 
+![products](https://user-images.githubusercontent.com/66345751/102029973-beba8300-3d7e-11eb-90db-2fac77e48098.JPG)
+
 ## Screenshots of the result.html After Submitting Info in Contact Form
 ![email1](https://user-images.githubusercontent.com/66345751/100783632-07b42400-33dc-11eb-8d65-3696d3303a5f.JPG)
 ![email2](https://user-images.githubusercontent.com/66345751/100783639-097de780-33dc-11eb-95d9-0b0153c94112.JPG)
