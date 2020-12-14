@@ -44,14 +44,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.authorizeRequests().antMatchers("/cart").authenticated().antMatchers("/console/**").permitAll()
-                .antMatchers("/").permitAll().antMatchers("/about").permitAll().antMatchers("/products").permitAll()
-                .antMatchers("/blog").permitAll().antMatchers("/blogresult").permitAll().antMatchers("/products2")
-                .permitAll().antMatchers("/galerie").permitAll().antMatchers("/cart").permitAll()
-                .antMatchers("/blog.css").permitAll().antMatchers("/product.css").permitAll().antMatchers("/style.css")
-                .permitAll().antMatchers("/login").permitAll().antMatchers("/signup").permitAll()
-                .antMatchers("/custom.js").permitAll().antMatchers().hasAuthority("USER").anyRequest().authenticated()
-                .and().csrf().disable().formLogin().loginPage("/login").failureUrl("/login?error=true")
-                .defaultSuccessUrl("/").usernameParameter("username").passwordParameter("password").and().logout()
+                .antMatchers("/").permitAll().antMatchers("/item/*").permitAll().antMatchers("/about").permitAll()
+                .antMatchers("/item").permitAll().antMatchers("/blog").permitAll().antMatchers("/blogresult")
+                .permitAll().antMatchers("/products2").permitAll().antMatchers("/galerie").permitAll()
+                .antMatchers("/cart").permitAll().antMatchers("/blog.css").permitAll().antMatchers("/product.css")
+                .permitAll().antMatchers("/style.css").permitAll().antMatchers("/login").permitAll()
+                .antMatchers("/signup").permitAll().antMatchers("/custom.js").permitAll().antMatchers()
+                .hasAuthority("USER").anyRequest().authenticated().and().csrf().disable().formLogin()
+                .loginPage("/login").failureUrl("/login?error=true").defaultSuccessUrl("/")
+                .usernameParameter("username").passwordParameter("password").and().logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/login").and()
                 .exceptionHandling();
 

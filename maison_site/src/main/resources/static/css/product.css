@@ -180,6 +180,23 @@ h6{
     padding-top:5px;
 }
 
+.card-body{
+    /* background-color:red; */
+}
+
+.item-card-lnk{
+    color: inherit;
+
+}
+
+.item-card-lnk:hover{
+    text-decoration: none;
+    color: inherit;
+    opacity:0.4;
+  
+}
+   
+
 
 /* Login Page CSS */
 #login-form{

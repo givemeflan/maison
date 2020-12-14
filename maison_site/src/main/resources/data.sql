@@ -6,7 +6,7 @@ VALUES (
         'The Ellie Vase',
         28
     );
-INSERT INTO PRODUCTS
+INSERT INTO 'PRODUCTS'
 VALUES (
         2,
         'Created by Vivienne Tran',

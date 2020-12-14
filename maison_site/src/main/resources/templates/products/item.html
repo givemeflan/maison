@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title> Item Page</title>
+      <div th:replace="/fragments/productstyle :: product-style"></div>
+   </head>
+
+   <body>
+
+      <!-- Nav Bar Area -->
+      <div id="productpage-sec">
+         <div th:replace="fragments/navbar :: navlinks"></div>
+      </div>
+
+       <!-- Item Title Section  -->
+       <section class="product-about">
+         <div class="container product-container" id="product-area">
+            <div class="row">
+               <div class="col-sm-12" >
+                  <h2 > Produits</h2>
+                  <h3> That Means Products In French!</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Item Section -->
+      <div class="product-sec">
+        <div class="row">
+           <div class="card-deck">
+              <div class="card" class="item-card-lnk">
+                 <img th:src="@{${product.image}}" class="card-img-top" alt="woman holding round vase">
+               <div class="card-body">
+                    <h5 th:text="${product.name}" class="card-title" ></h5>
+                    <p th:text="${product.description}" class="card-text" ></p>
+                    <div class="star-rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                    </div>
+                    <div>
+                       <p class="price-tag"><span>$ </span><span th:text="${product.price}" ></span></p>
+                    </div>
+                    <form th:action="@{/cart}" th:object="${product}">
+                    <button class="btn btn-md btn-secondary btn-block" name="Submit" value="Submit" type="Submit">Add to Cart</button>
+                    </form>
+                 </div>
+              </div>
+        </div>
+        </div>
+        </div>
+
+
+
+         <!-- Fragments Footer -->
+         <div th:replace="/fragments/footer :: footer-area"></div>
+        </body>
+     </html>

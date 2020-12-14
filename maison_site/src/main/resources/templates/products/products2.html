@@ -12,13 +12,25 @@
          <div th:replace="fragments/navbar :: navlinks"></div>
       </div>
 
+       <!-- Products Title Section  -->
+       <section class="product-about">
+         <div class="container product-container" id="product-area">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h2> Produits</h2>
+                  <h3> We Carefully Curate These Seasonal Pieces.</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+
       <!-- Products Section -->
       <div class="product-sec">
          <div class="row">
             <div class="card-deck">
-               <div th:each="product:${products}" class="card">
-                  <img th:src="@{${product.image}}" class="card-img-top" alt="woman holding round vase">
-                  <div class="card-body">
+               <div th:each="product:${productsList}" class="card"><a th:href="@{/item/} + ${product.id}" class="item-card-lnk">
+                  <img th:src="@{${product.image}}" class="card-img-top" >
+                <div class="card-body">
                      <h5 th:text="${product.name}" class="card-title" ></h5>
                      <p th:text="${product.description}" class="card-text" ></p>
                      <div class="star-rating">
@@ -29,10 +41,11 @@
                         <span class="fa fa-star checked"></span>
                      </div>
                      <div>
-                        <p th:text="${product.price}" id="price-tag" ></p>
+                        <p class="price-tag"><span>$ </span><span th:text="${product.price}" ></span></p>
                      </div>
-                  </div>
+                  </div></a>
                </div>
+         </div>
          </div>
          </div>
 
